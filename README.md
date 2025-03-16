@@ -1,4 +1,4 @@
-🚀 My Portfolio
+# 🚀 My Portfolio
 
 Welcome to my portfolio website! This is a showcase of my projects, skills, and experiences as a web developer.
 
@@ -49,8 +49,8 @@ git clone https://github.com/manoj-9836/Portfolio.git
 
 Feel free to reach out via email or connect with me on LinkedIn:
 
-📧 Email: your-email@example.com
+📧 Email: manojbavisetti75@gmail.com.com
 
-💼 LinkedIn: Your LinkedIn Profile
+💼 LinkedIn: https://www.linkedin.com/in/manoj-kumar-0a3286256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 🔹 Like this project? Give it a ⭐ on GitHub!# Portfolio
