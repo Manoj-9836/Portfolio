@@ -1011,8 +1011,8 @@ img {
 
 @media screen and (max-width: 768px) {
   .blog-slider__pagination {
-    top: auto;
-    bottom: 10px;
+    top: 100px;
+    bottom: auto;
     right: 50%;
     left: 50%;
     transform: translateX(-50%);
