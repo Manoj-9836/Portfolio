@@ -1005,7 +1005,7 @@ img {
   width: 11px !important;
   text-align: center;
   left: auto !important;
-  top: 50%;
+  top: 70%;
   bottom: auto !important;
   transform: translateY(-50%);
 }
