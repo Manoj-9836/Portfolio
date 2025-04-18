@@ -1013,7 +1013,7 @@ img {
 @media screen and (max-width: 768px) {
   .blog-slider__pagination {
     transform: translateX(-50%);
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
     width: 100% !important;
     display: flex;
