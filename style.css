@@ -993,9 +993,9 @@ img {
 .blog-slider .swiper-container-horizontal>.swiper-pagination-bullets,
 .blog-slider .swiper-pagination-custom,
 .blog-slider .swiper-pagination-fraction {
-  top: auto;
+  bottom: auto;
   z-index: 10;
-  bottom: 10px;
+  top: 10px;
   left: 0;
   width: 100%;
 }
