@@ -1006,7 +1006,7 @@ img {
   text-align: center;
   left: auto !important;
   top: 50%;
-  bottom: auto !important;
+  bottom: 50% !important;
   transform: translateY(-50%);
 }
 
@@ -1014,7 +1014,7 @@ img {
   .blog-slider__pagination {
     transform: translateX(-50%);
     left: 50% !important;
-    top: 205px;
+    top: 105px;
     width: 100% !important;
     display: flex;
     justify-content: center;
