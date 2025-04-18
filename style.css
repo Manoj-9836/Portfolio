@@ -1005,7 +1005,7 @@ img {
   width: 11px !important;
   text-align: center;
   left: auto !important;
-  top: 70%;
+  top: 50%;
   bottom: auto !important;
   transform: translateY(-50%);
 }
@@ -1013,7 +1013,7 @@ img {
 @media screen and (max-width: 768px) {
   .blog-slider__pagination {
     transform: translateX(-50%);
-    bottom: 50%;
+    bottom: 10%;
     left: 50%;
     width: 100% !important;
     display: flex;
