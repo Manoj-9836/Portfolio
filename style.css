@@ -990,6 +990,16 @@ img {
   }
 }
 
+.blog-slider .swiper-container-horizontal>.swiper-pagination-bullets,
+.blog-slider .swiper-pagination-custom,
+.blog-slider .swiper-pagination-fraction {
+  bottom: auto !important;
+  z-index: 10 !important;
+  top: 50% !important;
+  left: 0;
+  width: 100%;
+}
+
 .blog-slider__pagination {
   position: absolute;
   z-index: 21;
