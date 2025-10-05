@@ -823,8 +823,8 @@ img {
 }
 
 .project-card:hover {
-  border-color: #7b2ff7;
-  box-shadow: 0 0 20px rgba(123, 47, 247, 0.15);
+  border-color: var(--first-color);
+  box-shadow: 0 0 20px rgba(47, 220, 247, 0.15);
 }
 
 /* Image */
@@ -1531,3 +1531,4 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
