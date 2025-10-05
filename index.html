@@ -133,11 +133,13 @@
                 <div class="about__data">
                     <p class="about__description">
                     <ul>
-                        <li>🎓 Computer Science Engineering student at Lendi Institute of Engineering and Technology</li><br />
+                        <li>🎓 Computer Science Engineering student at Lendi Institute of Engineering and Technology
+                        </li><br />
                         <li>💻 Passionate about Web Development and Data Structures & Algorithms</li><br />
                         <li>🚀 Skilled in MERN stack (MongoDB, Express.js, React, Node.js)</li><br />
                         <li>🧠 Quick learner with a strong problem-solving mindset</li><br />
-                        <li>🛠️ Built projects like AI-powered Resume Builder and NutriTrak (smart food tracker)</li><br />
+                        <li>🛠️ Built projects like AI-powered Resume Builder and NutriTrak (smart food tracker)</li>
+                        <br />
                         <li>🧪 Former Web Development Intern at HMI Engineering Services</li><br />
                         <li>🌐 Always exploring new technologies and frameworks</li><br />
                         <li>🎯 Goal: Land a high-impact role in tech and pursue MTech based on opportunities</li><br />
@@ -510,74 +512,96 @@
             </div>
         </section>
         <!--===================== projects =========================-->
-        <section class="project" id="projects">
-            <div class="slider">
-                <h2 class="section__title">My projects</h2>
-                <span class="section__subtitle">What have i done</span>
-                <!-- partial:index.partial.html -->
-                <div class="blog-slider">
-                    <div class="blog-slider__wrp swiper-wrapper">
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
-                                <img src="https://github.com/Manoj-9836/Portfolio/blob/main/images/NutroTrack.png?raw=true"
-                                    alt="">
-                            </div>
-                            <div class="blog-slider__content">
-                                <span class="blog-slider__code">10 January 2025</span>
-                                <div class="blog-slider__title">🥗 NutroTrack – Personal Nutrition & Calorie Tracker
-                                </div>
-                                <div class="blog-slider__text">NutroTrack is a full-stack web application designed to
-                                    help users manage
-                                    their daily nutritional intake by tracking food items, calories, and macronutrients.
-                                    The project
-                                    combines a user-friendly React frontend with a powerful backend built using both
-                                    Node.js and Python
-                                    (Flask) for advanced processing.</div>
-                                <a href="https://manoj-9836.github.io/NutroTrack/" target="_blank"
-                                    class="blog-slider__button">KNOW MORE</a>
-                            </div>
-                        </div>
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
-                                <img src="https://github.com/Manoj-9836/Portfolio/blob/main/images/iNotebook.png?raw=true"
-                                    alt="">
-                            </div>
-                            <div class="blog-slider__content">
-                                <span class="blog-slider__code">25 December 2024</span>
-                                <div class="blog-slider__title">📝 iNotebook – Secure Online Note Keeper</div>
-                                <div class="blog-slider__text">iNotebook is a secure and responsive full-stack web
-                                    application built
-                                    with the MERN stack that allows users to create, store, edit, and manage their
-                                    personal notes
-                                    online. It focuses on providing a seamless user experience with strong data privacy
-                                    through
-                                    token-based authentication.</div>
-                                <a href="#" class="blog-slider__button">KNOW MORE</a>
-                            </div>
-                        </div>
-
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
-                                <img src="https://github.com/Manoj-9836/Portfolio/blob/main/images/GlobalNews.png?raw=true"
-                                    alt="">
-                            </div>
-                            <div class="blog-slider__content">
-                                <span class="blog-slider__code">20 OCTOBER 2024</span>
-                                <div class="blog-slider__title">🌍 GlobalNews – Stay Updated with the World</div>
-                                <div class="blog-slider__text">GlobalNews is a sleek and modern web application that
-                                    delivers the latest headlines and breaking news stories from around the world. The
-                                    platform fetches real-time data using the News API and presents it in a clean,
-                                    responsive interface built with React and Bootstrap.</div>
-                                <a href="#" class="blog-slider__button">KNOW MORE</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="blog-slider__pagination"></div>
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section__title">My Projects</h2>
+                    <span class="section__subtitle">What I have done</span>
                 </div>
-                <!-- partial -->
+
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/images/Home.png" alt="Project 1">
+                            <div class="overlay">
+                                <div class="buttons">
+                                    <a href="https://apex-resume.vercel.app/" class="btn demo-btn" target="_blank"><i
+                                            class="fa-solid fa-link"></i> Live Demo</a>
+                                    <a href="https://github.com/Manoj-9836/ApexResume" class="btn code-btn"
+                                        target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Apex Resume - Build your ATS friendly resume with AI</h3>
+                            <p>
+                                ApexResume is an AI-powered resume builder using MERN and Gemini API to create
+                                ATS-optimized, skill-enhanced, professional resumes instantly.
+                            </p>
+                            <div class="tags">
+                                <span class="tag">MERN</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">Gemini</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/images/Nutrotrack.png" alt="Project 1">
+                            <div class="overlay">
+                                <div class="buttons">
+                                    <a href="https://manoj-9836.github.io/NutroTrack/" class="btn demo-btn"><i
+                                            class="fa-solid fa-link"></i> Live Demo</a>
+                                    <a href="https://github.com/Manoj-9836/NutroTrack" class="btn code-btn"><i
+                                            class="fa-brands fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Nutrotrack - Track your daily calorie intake</h3>
+                            <p>
+                                NutroTrack is an AI-powered calorie tracker built with Angular and ML, helping users
+                                monitor and manage daily nutrition effortlessly.
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Angular</span>
+                                <span class="tag">Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/images//iNotebook.png" alt="Project 2">
+                            <div class="overlay">
+                                <div class="buttons">
+                                    <a href="#" class="btn demo-btn"><i class="fa-solid fa-link"></i> Live Demo</a>
+                                    <a href="#" class="btn code-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>iNotebook - Your personal notes that stores data in cloud</h3>
+                            <p>
+                                iNotebook is a secure cloud-based notes app built with MERN, featuring JWT
+                                authentication, responsive UI, and seamless API integration.
+                            </p>
+                            <div class="tags">
+                                <span class="tag">MERN</span>
+                                <span class="tag">API</span>
+                                <span class="tag">JWT Authorization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+
 
         <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
